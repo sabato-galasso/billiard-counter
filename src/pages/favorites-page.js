@@ -16,7 +16,7 @@ export const Favorites = () => {
   }));
 
   useEffect(() => {
-    // if the user has nuked their collection
+    // if the user has nuked their collection 
     // redirect them back to the home page
     if (favoriteLyrics.length === 0) history.push('/');
   });
