@@ -24,8 +24,8 @@
     "workbox-webpack-plugin": "^3.6.3"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "start1": "node app.js",
+    "start1": "react-app-rewired start",
+    "start": "node app.js",
     "build": "react-app-rewired build --prod",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
