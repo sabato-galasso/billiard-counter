@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Router, Switch } from 'react-router';
 
 import { Layout } from '../components/layout-component';
-import { Favorites } from '../pages/favorites-page';
 import history from '../util/history-util';
 import Home from '../pages/home-page';
 
@@ -24,9 +23,7 @@ export const Routes = () => (
   <Router history={history}>
     <Layout>
       <Switch>
-        <Route path="/favorites" component={Favorites} />
         <Route exact path="/" component={Home} />
-        {/* <PrivateRoute path="/" component={() => RestrictedArea()} /> */}
       </Switch>
     </Layout>
   </Router>
